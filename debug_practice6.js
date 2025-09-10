@@ -6,3 +6,5 @@ def show_head_commit():
         capture_output=True, text=True
     )
     print("HEAD is at:", result.stdout)
+
+    test
